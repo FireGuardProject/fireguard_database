@@ -2,7 +2,7 @@ import pytest
 from datetime import datetime, timedelta
 import random
 
-from database.firestore import save_data, get_date_firerisk, delete_firerisk
+from src.firestore import save_data, get_date_firerisk, delete_firerisk
 
 @pytest.fixture
 def test_data():
